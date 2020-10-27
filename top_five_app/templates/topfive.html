@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h3>wassup y'all, these are my top 5 artists for hip-hip/rap</h3>
+    {% for name in list_names %}
+        <h5>{{ name }}</h5>
+    {% endfor %}
+
+{% endblock content %}
